@@ -14,3 +14,6 @@ Goal: Data Analyst job in Luxembourg 🇱🇺
 - 🔄 Expense Tracker
 - 🔄 Number Guessing Game
 - 🔄 CSV Data Analyzer
+
+##Certificate
+-[kaggle Pandas Certificate](certificate.png)
