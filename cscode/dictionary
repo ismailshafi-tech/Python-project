@@ -1,0 +1,35 @@
+#Dictionary = a collection of {key : value} pairs
+
+capitals = {"usa": "washington",
+            "india": "delhi",
+            "china": "Beijing",
+            "russia": "Moscow"}
+
+#print(dir(capitals))    
+#print(help(capitals))
+#print(capitals.get("usa"))
+
+
+#if capitals.get("japan"):
+#   print("that capitals exist")
+#else:
+#   print("that dosn't exist")   
+
+#capitals.update({"germany": "berlin"})
+#capitals.update({"usa": "berlin"})
+#capitals.pop("china")
+#capitals.popitem()
+#capitals.clear()
+#print(capitals)
+
+#keys = capitals.keys()
+#for key in capitals.keys():
+  #  print(key)
+    
+#values = capitals.values()
+#for value in capitals.values():
+ #   print(value)
+
+item = capitals.items()
+for key,value in capitals.items():
+    print(f"{key} :{value}")

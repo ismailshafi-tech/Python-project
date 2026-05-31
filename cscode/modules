@@ -1,0 +1,33 @@
+#modules = a files contains code u want to include in ur program ... "import" to include modules 
+
+#print(help("modules"))
+
+#import math
+#import math as m
+#from math import pi
+#from math import e
+
+#print(m.pi)
+#print(pi)
+
+#a, b, c, d, e = 1, 2, 3, 4, 5
+#print(e ** a)
+#print(e ** b)
+#print(e ** c)
+#print(e ** d)
+#print(e ** e)
+
+#-----or------
+#print(math.e ** a)
+#print(math.e ** b)
+#print(math.e ** c)
+#print(math.e ** d)
+#print(math.e ** e)
+
+pi = 3.14157
+
+def square(x):
+    return x ** 2
+
+def cube(x):
+    return x ** 3

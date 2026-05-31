@@ -1,0 +1,59 @@
+#SORTING IN PYTHON. SORT() OR SORTED()
+# LISTS[] , TUPLES(), DICTIONARIES{"":""}, OBJECTs
+
+#------------LISTS--------------
+
+#fruits = ["banana" , "orange" , "apple" , "coconut"]
+
+#fruits.sort()
+#fruits.sort(reverse = True)
+
+#print(fruits)
+             #another
+fruits = [("banana" , 33),
+            ("nani" ,   66),
+            ("coco" ,   98)]
+fruits.sort( key = lambda fruits: fruits[1])
+print(fruits)
+
+#------------TUPLES--------------
+
+#fruits = ("banana" , "orange" , "apple" , "coconut")
+ 
+#fruits = sorted(fruits)
+#fruits = tuple(sorted(fruits, reverse = True))
+#print(fruits)
+
+#--------------dictionaries--------------
+
+#fruits = {"banana" : 105,
+ #         "orange" : 75 ,
+  #        "apple"  : 73, 
+   #       "coconut": 677}
+
+#fruits = dict(sorted(fruits.items()))
+#fruits = dict(sorted(fruits.items(), key = lambda item: item[0]))    #fruits in alphabetical order
+#fruits = dict(sorted(fruits.items(), key = lambda item: item[1]))    #numbers in descending order
+#fruits = dict(sorted(fruits.items(), key = lambda item: item[1], reverse = True)) 
+
+#print(fruits)
+
+#-------------OBJECTS-----------------
+class fruit:
+    def __init__(self, name, calories):
+        self.name = name
+        self.calories = calories
+
+    def __repr__(self):
+          return f"{self.name}: {self.calories}"
+    
+fruits = [fruit("banana", 222),
+          fruit("coco", 55), 
+          fruit("apple" , 88)]
+
+#fruits = sorted(fruits, key = lambda fruits: fruits.name)
+fruits = sorted(fruits, key = lambda fruits: fruits.calories)
+#fruits = sorted(fruits, key = lambda fruits: fruits.name, reverse=True)
+
+
+print(fruits)

@@ -1,0 +1,33 @@
+#object
+#class(blueprint)                   dunder = double undersquare
+
+class car:
+    def __init__(self, model, year, colour, for_sale):
+        self.model = model
+        self.year = year
+        self.colour = colour
+        self.for_sale = for_sale
+
+    def drive(self):
+        print(f"you drive the {self.model}")
+
+    def stop(self):
+        print(f"ypu stop the {self.model}")    
+
+    def describe(self):
+        print(f"{self.model} {self.colour} {self.year}")
+
+
+car1 = car("mustang" , 2024 , "red" , False)
+car2 = car("tata" , 2026 , "white" , True)
+car3 = car("ferrari" , 2025 , "yelllow" , True)
+
+#print(car1.model)
+#print(car1.colour)
+#print(car2.year)
+#print(car3.for_sale)
+
+car3.drive()
+car1.drive()
+car2.stop()
+car2.describe()

@@ -1,0 +1,66 @@
+#variables
+
+age = 21
+#print("you are " +str(age) + " years old")
+#print("you are" ,age ,"years old")
+#print(f"you are {age} years old#")
+
+#Integers
+
+age = 21
+players = 5
+quantity = 7
+
+#print(f"there are {players} playrs online")
+
+#Float
+
+gpa = 3.3
+distance = 3.5
+price = 9.5
+
+#print(f"you ran {distance}")
+
+#string
+
+name = "bro"
+food = "pizza"
+
+#print(f"you like {food}")
+
+#booleans
+
+online = True
+for_sale = False
+
+#print(f"are you online?: {online}")
+
+if online:
+           print("the game is in online")
+else:
+        print("the game is in offline")
+
+
+is_student = True
+
+if is_student:
+        print("you are a student")
+else:
+        print("you are not a student")
+
+#x = 1
+#y = 2
+#z = 3
+#print(x)
+#print(y)
+#print(z)
+
+#x, y, z = 1, 2, 3
+#print(x)
+#print(y)
+#print(z)
+
+#x=y=z =1
+#print(x)
+#print(y)
+#print(z)

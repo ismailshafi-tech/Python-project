@@ -1,0 +1,55 @@
+#Functions = a bblock of reusable code place () after the functions name to invoke it
+
+#def happy_brdy(): 
+ #   print("happy birdy to you")
+  #  print("happy old to you")
+   # print("happy birdy sweety")
+    #print()
+
+#happy_brdy()
+#happy_brdy()
+
+#def happy_brdy(name, age): 
+ #   print(f"happy birdy to you {name}")
+  #  print(f"happy old {age} to you")
+   # print("happy birdy sweety")
+   # print()
+
+#happy_brdy("bro", 26)
+#happy_brdy("reemu",6)
+
+#def display_invoice(username, amount, duedate):
+ #   print(f"hello {username}")
+  #  print(f"yr bill of ${amount:.2f} is due: {duedate}")
+
+#display_invoice("shafiireem",100.990, "01/02")
+
+#return = statement used to end a function and send result
+
+#def add(x, y):
+ #   z = x + y
+  #  return z 
+
+#def subtract(x, y):
+ #   z = x - y
+  #  return z 
+
+#def multiply(x, y):
+#   z = x * y
+ #   return z 
+
+#def divide(x, y):
+ #   z = x / y
+  #  return z 
+#print(add(1, 3))
+#print(subtract(4, 2))
+#print(multiply(3, 4))
+#print(divide(4, 2))
+
+def createname(first, last):
+    first = first.capitalize()
+    last = last.capitalize()
+    return first + " " + last
+
+print(createname("shafi", "reemu"))
+print(createname("reemu","shahh"))

@@ -1,0 +1,53 @@
+#list = [] ordered and changeable.duplicate ok
+#set = {} unordered and immutable.but add/remove ok.no duplicates
+#tuple = () ordered and unchangeable. duplicates ok.faster
+
+#LIST[]
+#fruits = ["apple", "orange", "banana", "coconut"]
+
+
+#print(fruits[1])
+#print(fruits[:3])
+#print(fruits[::2])
+#print(fruits[::-1])
+
+#print(dir(fruits))
+#print(help(fruits))
+#print(len(fruits))
+#print("pinapple" in fruits)
+
+#fruits[0] = "pineapple"
+#fruits.append("pineapple")
+#fruits.remove("apple")
+#fruits.insert(0,"pineapple")
+#fruits.sort()
+#fruits.reverse()
+#fruits.clear()
+#print(fruits.index("apple"))
+#print(fruits.count("apple"))
+
+#for x in fruits:
+ #  print(x)
+
+#SET{}
+fruits = {"apple", "orange", "banana", "coconut", "coconut"}
+#print(dir(fruits))
+#print(help(fruits))
+#print(len(fruits))
+#print("pinapple" in fruits)
+
+#fruits.add("pineapple")
+#fruits.remove("apple")
+#fruits.pop()
+#fruits.clear()
+
+#print(fruits)
+
+fruits = ("apple", "orange", "banana", "coconut", "coconut")
+#print(dir(fruits))
+#print(help(fruits))
+#print(len(fruits))
+#print("pinapple" in fruits)
+
+#print(fruits.index("apple"))
+print(fruits.count("coconut"))

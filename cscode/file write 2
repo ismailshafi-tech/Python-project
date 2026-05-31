@@ -1,0 +1,10 @@
+expenses = ["food: 500", "travel: 200", "book: 444"]
+
+#with open("expenses.txt","w") as f:
+  #for item in expenses:
+   # f.write(item + "\n")
+with open("expenses.txt","r") as f:
+  for line in f:
+    print(line.strip())
+        
+#more test

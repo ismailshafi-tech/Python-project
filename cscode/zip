@@ -1,0 +1,14 @@
+#zip() = combines multiple iterables (lists , tuples , sets , dictionaries)
+
+names = ["shafi" , "reemu", "sponge"]
+ages = [11 , 22 , 44]
+
+#data = list(zip(names,ages))
+#data = tuple(zip(names,ages))
+
+#print(data)
+
+data = zip(names,ages)
+ 
+for name, age in data:
+    print(f"{name} is {age} years old") 

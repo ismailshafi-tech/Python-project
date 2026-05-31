@@ -1,0 +1,22 @@
+#Logical operators = used in conditional statement
+
+# and  or  not
+
+temp = 15
+
+#if temp > 0 and temp < 40 and temp >= 5:
+ #       print("the temperature is good")
+#else:
+ #       print("the temperature is bad")
+
+if temp > 0 or temp < 40 :
+        print("the temperature is good")
+else:
+        print("the temperature is bad")
+
+sunny = True
+
+if not sunny:
+        print("it is cloudy outside")
+else:
+        print("it is sunny outside")

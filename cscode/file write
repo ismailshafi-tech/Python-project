@@ -1,0 +1,28 @@
+#write a file 
+
+f = open("test.txt", "w")
+f.write("my name is shafi")
+f.close()
+
+#read file
+
+f = open("test.txt", "r")
+content = f.read()
+f.close()
+print(content)
+
+#more test
+f = open("test.txt", "w")
+f.write("name: shafi\n")
+f.write("goal: luxemberg\n")
+f.write("skill: python\n")
+f.close()
+#\n = new lines
+
+f = open("test.txt", "a")
+f.write("city: banglore\n")
+f.close
+#in modern way
+with open("test.txt", "w") as f:
+    f.write("name: shafi\n")
+    f.write("goal: luxemberg\n")

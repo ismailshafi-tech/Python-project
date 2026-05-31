@@ -1,0 +1,35 @@
+#name = input("enter your name: ")
+#age = input("enter your age: ")
+
+#print(f"hello{name}")
+#print(f"you are {age} years old")
+
+
+#name = input("enter your name: ")
+#age = int(input("enter your age: "))
+#age = 22+1
+
+#print(f"you are {age} years old")
+
+# MAD LIBS
+
+#adjective = input("enter an adjuctive")
+#noun = input("enter a noun")
+#adjective2 = input("enter an adjective")
+
+#print(f"{noun} was {adjective2}")
+
+#AREA CALCULATION
+
+#print(f"the area is : {area}cm^2")
+
+#SHOPPING CART
+
+item = input("what item would you like to buy")
+price = float(input("what is your price:"))
+quantity = int(input("how many would you like"))
+
+total = price * quantity
+
+print(f"your total is: ${total}")
+print(f"you have bought {quantity} * {item}/s")

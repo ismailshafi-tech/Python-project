@@ -1,0 +1,13 @@
+#keyword arguments
+
+#def hello(greeting, title, first, last):
+ #   print(f"{greeting} {title} {first}{last}")
+
+#hello("hello", title="mr", first="shafinde", last="reemu")
+
+def getphone(country, area, first, last):
+    return f"{country}-{area}-{first}-{last}"
+#print(getphone(1,567,677,99))
+        #OR
+phonenum = getphone(country=11, area=7, first=667, last=57)        
+print(phonenum)

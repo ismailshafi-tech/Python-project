@@ -1,0 +1,35 @@
+#typecasting
+
+#(string, integer,float,booleans)
+#explicit
+name = "shafi"
+age = 21
+gpa = 2.1
+student = True
+
+print(type(name))
+print(type(age))
+print(type(gpa))
+print(type(student))
+
+age = float(age)
+print(age)                    #this can have desimals bcz of float
+
+gpa = int(gpa)
+print(gpa)
+
+student = str(student)
+print(student)
+
+name = str(name)
+print(type(name))
+
+name = bool(name)
+print(name)
+
+#implicit
+x = 1
+y = 2.0
+
+x = x/y
+print(x)

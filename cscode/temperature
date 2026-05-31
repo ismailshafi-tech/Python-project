@@ -1,0 +1,9 @@
+temp = float(input("enter the temperature :"))
+unit = input("is temperature is celsius or farenheit (c/f) ")
+
+if unit == "c":
+    temp = round((9 * temp) /  5 + 32, 1)
+    print(f"the temperature in farenheight is : {temp}f")
+elif unit == "f":
+    temp = round(( temp - 32) * 5/9, 2)
+    print(f"the temperature in celsius is : {temp}c")

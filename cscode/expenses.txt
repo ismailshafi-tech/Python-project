@@ -1,0 +1,3 @@
+food: 500
+travel: 200
+book: 444

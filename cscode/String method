@@ -1,0 +1,28 @@
+name = input("enter your name ")
+#phone_number = input("enter num")
+
+#result = len(name)
+#result = name.find(" ")
+#result = name.find("a")
+#result = name.rfind("a")
+#name = name.capitalize()
+#name = name.upper()
+#name = name.lower()
+#name = name.isdigit()     #define true or false
+#name = name.isalpha()
+#result = phone_number.count("-")
+#result = phone_number.replace("-"," ")
+#print(result)
+
+
+
+#username = input("enter a username")
+
+#if len(username) > 12:
+ #   print("ur username cant be more than 12 character")
+#elif not  username.find(" ") == -1:
+ #   print("ur username cant contains spaces")
+#elif not  username.isalpha():
+#    print("ur username cant contain numbers")
+#else :
+ #   print(f"welcome {username}")
